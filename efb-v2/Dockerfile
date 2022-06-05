@@ -8,6 +8,8 @@ RUN set -ex \
         && apk add --no-cache udns \
         && apk add --no-cache --virtual .run-deps \
         ca-certificates \
+        gcc \
+        g++ \
         ffmpeg \
         libmagic \
         tiff \
